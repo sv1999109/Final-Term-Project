@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style media="screen">
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      background: black;
+      color: white;
+      text-align: center;
+    }
+
+    h3 {
+      padding-top: 26px;
+    }
+
+    .td1 {
+      padding-left: 93px;
+      width: 50%;
+    }
+
+    .td2 {
+      padding-left: 93px;
+      vertical-align:top;
+      width: 50%;
+    }
+
+    #td3 {
+      padding-top: 27px;
+      padding-left: 93px;
+      width: 50%;
+    }
+
+    #td4 {
+      padding-left: 93px;
+      padding-top: 0px;
+      width: 50%;
+    }
+    a{
+      padding-bottom:3px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <a href="index.html">Return to home</a>
+  <h1>CSS CHEATSHEET</h1>
+  <table>
+    <tr>
+      <td class="td1">
+        <h3>Background</h3>
+        <h4>background-image</h4>
+        url <br>
+        <h4>background-position</h4>
+        top left | top center | top right | center left | center center |
+        center right | bottom left | bottom center | bottom right <br>
+        <h4>background-size </h4>
+        length <br>
+        % <br>
+        auto | cover | contain <br>
+        <h4>background-repeat</h4>
+        no-repeat <br>
+        <h4>background-color</h4>
+        color <br>
+        transparent
+      </td>
+
+      <td class="td2">
+        <h3>Border</h3>
+        <h4>border-width</h4>
+        thin | medium | thick | length <br>
+        <h4>border-style</h4>
+        none | hidden | dotted |
+        dashed | solid
+        <h4>border-color </h4>
+        color
+        <br>
+        <br>
+        <h3>Selector</h3>
+        * For All elements <br>
+        div for Element <br>
+        .class for Class(Common) <br>
+        #id for ID (Specific)
+
+      </td>
+    </tr>
+
+    <tr>
+      <td id="td3">
+        <h3>Box Model</h3>
+        <h4>display</h4>
+        none | inline | block | inline-block | flex | inline-flex | grid | <br>
+        <h4>overflow </h4>
+        visible | hidden | auto <br>
+        <h4>visibility </h4>
+        visible | hidden <br>
+        <h4>clear </h4>
+        left | right | both | none
+      </td>
+
+      <td id="td4">
+        <h4>Pseudo-classes</h4>
+        :nth-child(3)	3rd child <br>
+        :nth-child(3n+2)	2nd child in groups of 3 <br>
+        :nth-child(-n+4)	 <br>
+        :nth-last-child(2)	<br>
+        :nth-of-type(2)
+<br>
+<br>
+<br>
+      <h4>Combinators</h4>
+.parent .child	 Descendant <br>
+.parent > .child	Direct descendant <br>
+.child + .sibling	Adjacent sibling <br>
+.child ~ .sibling	Far sibling <br>
+.class1.class2	Have both classes
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>

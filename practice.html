@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Cheatsheet</title>
+</head>
+<style media="screen">
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    background: black;
+    color: white;
+    text-align: center;
+  }
+
+  .td1 {
+    padding-left: 93px;
+    width: 50%;
+  }
+
+  .td2 {
+    padding-left: 93px;
+    padding-top: 27px;
+    width: 50%;
+  }
+  a{
+    padding-bottom:3px;
+  }
+</style>
+
+<body>
+  <a href="index.html">Return to home</a>
+  <h1>HTML CHEATSHEET</h1>
+  <table>
+    <tr>
+      <td class="td1">
+        <h4>Basic Tags</h4>
+
+        &lt;html&gt; &lt; /html&gt; Creates an HTML document <br>
+        &lt;head&gt; &lt; /head&gt;
+        Sets off the title & other info that isn't displayed <br>
+        &lt;body&gt; &lt;/body&gt;
+        Sets off the visible portion of the document <br>
+        &lt;title&gt; &lt; /title&gt;
+        Puts name of the document in the title bar; when
+        bookmarking pages, this is what is bookmarked
+      </td>
+      <td class="td2">
+        <h4>Text Tags</h4>
+        &lt;h1&gt; &lt;/h1&gt; --> &lt;h6&gt; &lt; /h6&gt;
+        Creates headlines -- H1=largest, H6=smallest <br>
+        &lt;b&gt; &lt; /b&gt;
+        Creates bold text (should use &lt;strong&gt; instead) <br>
+        &lt;i&gt; &lt; /i&gt;
+        Creates italicized text (should use &lt;em&gt; instead) <br>
+        &lt;em&gt; &lt; /em&gt;
+        Emphasizes a word (usually processed in italics) <br>
+        &lt;Strong&gt; &lt; /Strong&gt;
+        Emphasizes a word (usually processed in bold) <br>
+        &lt;font size&gt; &lt; /font&gt;
+        Sets size of font - 1 to 7 <br>
+        &lt;font color&gt; &lt; /font&gt;
+        Sets font color
+      </td>
+    </tr>
+
+    <tr>
+      <td class="td1">
+        <h4>Forms</h4>
+        &lt;form&gt; &lt; /form&gt;
+        Defines a form <br>
+        &lt;select name=?&gt; &lt;/select&gt;
+        Creates a pulldown menu <br>
+        &lt;textarea name=? cols="x" rows="y"&gt; &lt;/textarea&gt;
+        Creates a text box area. Columns set the width;
+        rows set the height. <br>
+        &lt;input type="checkbox" name=? value=?&gt;
+        Creates a checkbox. <br>
+        &lt;input type="checkbox" name=? value=? checked&gt;
+        Creates a checkbox which is pre-checked. <br>
+        &lt;input type="radio" name=? value=? &gt;
+        Creates a radio button. <br>
+        &lt;input type="reset"&gt;
+        Creates a reset button
+      </td>
+
+      <td class="td2">
+        <h4>Graphical elements</h4>
+        &lt;hr&gt;
+        Inserts a horizontal rule <br>
+        &lt;hr size=?&gt;
+        Sets size (height) of horizontal rule <br>
+        &lt;hr width=?&gt;
+        Sets width of rule (as a % or absolute pixel length) <br>
+        &lt;img src="URL" &gt;
+        Adds image; it is a separate file located at the URL <br>
+        &lt;img src="URL" align=? &gt;
+        Aligns image left/right/center/bottom/top/middle <br>
+        &lt;img src="URL" border=?&gt;
+        Sets size of border surrounding image <br>
+        &lt;img src="URL" height=?&gt;
+        Sets height of image, in pixels <br>
+        &lt;img src="URL" width=? &gt;
+        Sets width of image, in pixels <br>
+        &lt;img src="URL" alt=? &gt;
+        Sets the alternate text for browsers that can't
+        process images (required by the ADA)
+      </td>
+    </tr>
+
+    <tr>
+      <td class="td1">
+        <h4>Tables (use only for data layout)</h4>
+        &lt;table &gt; &lt;/table&gt;
+        Creates a table <br>
+        &lt;tr&gt; &lt;/tr&gt;
+        Sets off each row in a table <br>
+        &lt;td&gt; &lt;/td&gt;
+        Sets off each cell in a row <br>
+        &lt;th&gt; &lt;/th&gt;
+        Sets off the table
+      </td>
+
+      <td class="td2">
+
+        <h4>Table attribute</h4>
+        &lt;table border=?&gt;
+        Sets the width of the border around table cells <br>
+        &lt;table cellspacing=?&gt;
+        Sets amount of space between table cells <br>
+        &lt;table cellpadding=? &gt;
+        Sets amount of space between a cell's border and
+        its contents <br>
+        &lt;table width=?&gt;
+        Sets width of the table in pixels or as a percentage <br>
+        &lt;td rowspan=?&gt;
+        Sets number of rows a cell should span (default=1) <br>
+        &lt;td colspan=?&gt;
+        Sets number of columns a cell should span <br>
+        &lt;td nowrap&gt;
+        Prevents lines within a cell from being broken to fit
+      </td>
+    </tr>
+  </table>
+
+</body>
+
+</html>
