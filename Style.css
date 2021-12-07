@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  padding: 40px;
+}
+
+header>h1 {
+  background-color: yellow;
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: arial;
+  text-transform: uppercase;
+  font-size: 21px;
+  color: #444433;
+  padding-top: 20px;
+  height: 40px;
+}
+
+header section{
+  height:306px;
+}
+
+li {
+  list-style-type: none;
+  margin-0.2vw;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 59px;
+  padding-top: 4px;
+}
+
+nav {
+  background-color: #444444;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 40px;
+  padding-top: 7px;
+}
+
+li:nth-of-type(1) {
+  padding-right: 50px;
+  padding-top: 4px;
+}
+
+li:nth-of-type(2) {
+  padding-right: 42px;
+  padding-top: 4px;
+}
+
+li:nth-of-type(3) {
+  padding-right: 96px;
+  padding-top: 4px;
+}
+
+a, a:visited, a:hover, a:active {
+  color: white;
+}
+
+img {
+  width: calc(100vw - 107px);
+  height: calc(100vh - 366px);
+  margin-left: 5px;
+  margin-right: 5px;
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+section h1 {
+  padding-top: 68px;
+  color: lightgreen;
+  font-weight: 900;
+  background-color: rgba(0, 0, 0, 0.0);
+  padding-bottom: 0;
+}
+
+header:first-of-type section::after {
+  content: url("img.jpg");
+  border: 1px solid black;
+  zoom: 20%;
+  position: relative;
+  left: calc(100vw + 2940px);
+  top: -1432px;
+}
+
+header section:first-of-type h1,
+header section:first-of-type h2,
+header section:first-of-type h3 {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 125px;
+  margin-right: 125px;
+  padding-left: 142px;
+
+}
+
+header section:first-of-type h1 {
+  font-size: 30px;
+}
+
+header section:first-of-type h2 {
+  color: white;
+  height: 55px;
+}
+
+header section:first-of-type h3 {
+  color: #c5c1bf;
+  height: 132.5px;
+}
+
+aside {
+  width: 25%;
+  margin-top: 7px;
+  margin-right: 154px;
+  float: right;
+  font-style: italic;
+  background-color: #444444;
+  height: 790px;
+  font-family: sans-serif;
+}
+
+aside:first-of-type p,
+aside:first-of-type blockquote {
+  color: #e0e2d6;
+}
+
+aside:first-of-type p {
+  padding: 27px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+aside:first-of-type blockquote {
+  padding-left: 62px;
+  padding-right: 62px;
+  font-style: normal;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+blockquote:first-of-type sup {
+  color: yellow;
+}
+
+aside h2 {
+  background-color: yellow;
+  height: 2 px;
+  padding: 16px 28px 16px 28px;
+  font-style: normal;
+  color: #444444;
+  text-transform: uppercase;
+  font-size: 17px;
+  transform: scale(1, 1.2);
+}
+
+iframe {
+  padding-top: 20px;
+  border-top: 3px solid white;
+  margin-left: 27px;
+}
+
+body > main > article > section:nth-child(3) > h2,
+body > main > article > section:nth-child(5) > h2{
+  background-color: yellow;
+  width: 135px;
+  margin-left: 97px;
+  margin-top: 65px;
+  padding: 9px;
+  color: #646467;
+  font-weight: lighter;
+}
+body > main > article > section:nth-child(5) > h2{
+  background-color: yellow;
+  width: 547px;
+  margin-left: 97px;
+  margin-top: 65px;
+  padding: 9px;
+  color: #646467;
+  font-weight: lighter;
+}
+
+body > main > article > section:nth-child(2) > h2,
+body > main > article > section:nth-child(4) > h2 {
+  background-color: lightgreen;
+  width: 208px;
+  margin-left: 41px;
+  margin-top: 65px;
+  padding: 9px;
+  color: #646467;
+  font-weight: lighter;
+}
+
+article section:nth-of-type(even) p {
+  margin-left: 97px;
+  border-left: 2px solid yellow;
+  color: #646467;
+  padding: 40px 25px 0px 25px;
+  font-weight: 600;
+  font-size: 17px;
+  transform: scale(1, 1.2);
+  line-height: 22px;
+  word-spacing: 4 px;
+}
+
+body > main > article > section:nth-child(2) > h2 {
+  margin-top: 79px;
+}
+
+article section:nth-of-type(odd) p {
+  margin-left: 41px;
+  border-left: 2px solid lightgreen;
+  padding: 40px 25px 0px 25px;
+  color: #646467;
+  font-weight: 600;
+  font-size: 17px;
+  transform: scale(1, 1.2);
+  line-height: 22px;
+  word-spacing: 4px;
+}
+
+footer section a {
+  background-color: yellow;
+  color: black;
+  height: 0px;
+}
+
+footer{
+  margin-top: 34px;
+  text-align: center;
+}
